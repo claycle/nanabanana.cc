@@ -4,7 +4,7 @@
   "description": "nanabanana.cc website built in hugo",
   "main": "index.html",
 "scripts": {
-    "server": "hugo server -D --disableFastRender",
+    "server": "hugo server --buildDrafts --disableFastRender --navigateToChanged",
     "build": "hugo --cleanDestinationDir",
     "clean": "./clean.sh",
     "test": "echo \"Hello, world.\""
