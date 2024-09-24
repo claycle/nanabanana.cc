@@ -47,10 +47,10 @@ target = "assets/js/bootstrap.bundle.min.js"
 source = "node_modules/bootstrap-icons/font/fonts"
 target = "static/css/fonts"
 
-[[module.mounts]]
-source = "node_modules/bootstrap-icons/bootstrap-icons.svg"
-target = "static/images/bootstrap-icons.svg"
-
-[[module.mounts]]
-source = "node_modules/bootstrap-icons/icons"
-target = "static/images/icons"
+# [[module.mounts]]
+# source = "node_modules/bootstrap-icons/bootstrap-icons.svg"
+# target = "static/images/bootstrap-icons.svg"
+# 
+# [[module.mounts]]
+# source = "node_modules/bootstrap-icons/icons"
+# target = "static/images/icons"
