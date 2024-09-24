@@ -8,7 +8,7 @@ enableEmoji = true
 enableGitInfo = true
 enableRobotsTXT = true
 
-#googleAnalytics = "UA-114931239-3"
+googleAnalytics = "UA-114931239-3"
 
 [params]
 description = "Nana Banana Art"
@@ -25,32 +25,11 @@ meta_twitter_card = "summary_large_image"
 meta_twitter_site = ""
 meta_twitter_creator = ""
 
-
-[frontmatter]
-date = ["date", "publishDate", "lastmod"]
-lastmod = ["lastmod", ":fileModTime", ":default"]
-
 [module]
 [[module.mounts]]
 source = "assets"
 target = "assets"
 
 [[module.mounts]]
-source = "static"
-target = "static"
-
-[[module.mounts]]
 source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
 target = "assets/js/bootstrap.bundle.min.js"
-
-[[module.mounts]]
-source = "node_modules/bootstrap-icons/font/fonts"
-target = "static/css/fonts"
-
-[[module.mounts]]
-source = "node_modules/bootstrap-icons/bootstrap-icons.svg"
-target = "static/images/bootstrap-icons.svg"
-
-[[module.mounts]]
-source = "node_modules/bootstrap-icons/icons"
-target = "static/images/icons"
