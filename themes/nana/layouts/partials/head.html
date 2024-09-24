@@ -17,11 +17,19 @@
     {{ end -}}
 </title>
 
+
+<!doctype html>
+<html lang="en">
+
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <meta name="description" content="{{ .Site.Params.homepage_meta_tags.meta_description }}" />
 <meta name="keywords" content="{{ .Site.Params.homepage_meta_tags.meta_keywords }}">
 <meta name="dc.relation" content="{{ .Site.BaseURL }}" />
+<!--
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+-->
 <meta name="theme-color" content="#1A94D2" />
 
 {{ $options := (dict "targetPath" "css/styles.css" "outputStyle" "compressed") }}
