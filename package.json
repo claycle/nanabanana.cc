@@ -4,10 +4,10 @@
   "description": "nanabanana.cc website built in hugo",
   "main": "index.html",
 "scripts": {
-    "test": "echo \"Hello, world.\"",
-    "build": "hugo --cleanDestinationDir",
     "server": "hugo server -D --disableFastRender",
-    "clean": "./clean.sh"
+    "build": "hugo --cleanDestinationDir",
+    "clean": "./clean.sh",
+    "test": "echo \"Hello, world.\""
   },
   "author": "claycle",
   "license": "ISC",
