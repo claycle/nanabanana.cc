@@ -5,7 +5,7 @@ theme = "nana"
 
 relativeURLS = true
 enableEmoji = true
-#enableGitInfo = true
+enableGitInfo = true
 enableRobotsTXT = true
 
 googleAnalytics = "UA-114931239-3"
